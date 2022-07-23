@@ -14,7 +14,7 @@ if [ -e "dadosBot.ini" ] ; then
 
 else
 
-echo "Instalando dependencias, aguarde..."
+echo "INSTALANDO MOMENTO PERRO..."
 
 #add-apt-repository ppa:ondrej/php > /dev/null 2>&1
 
@@ -31,9 +31,9 @@ apt-get install redis -y > /dev/null 2>&1
 apt-get install screen -y > /dev/null 2>&1
 apt-get install zip -y > /dev/null 2>&1
 
-wget https://www.dropbox.com/s/j9bpk6m27egkwkp/gerarusuario-sshplus.sh?dl=0 -O gerarusuario.sh; chmod +x gerarusuario.sh > /dev/null
+wget hhttps://raw.githubusercontent.com/Gatesccn/repodeccs/main/gerarusuario-sshplus.sh -O gerarusuario.sh; chmod +x gerarusuario.sh > /dev/null
 
-wget https://github.com/developper777/botsshfree/raw/master/%40admysshbot.zip -O bot.zip && unzip bot.zip > /dev/null
+wget https://github.com/Gatesccn/repodeccs/raw/main/%40admysshbot.zip -O bot.zip && unzip bot.zip > /dev/null
 
 rm dadosBot.ini > /dev/null
 
@@ -52,7 +52,7 @@ screen -dmS bot php bot.php
 
 rm bot.zip
 
-echo "Pronto, o bot esta executando em segundo plano
-Agradeça a @EQUIPEVIPSSH"
+echo "BOT EJECUTANDOSE EN SEGUNDO PLANO
+AGRADECIMIENDOS a @GATESCCN"
 
 fi
