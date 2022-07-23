@@ -41,7 +41,7 @@ clear
 
 ip=$(wget -qO- ipv4.icanhazip.com/)
 
-echo "Digite o token do seu bot:"
+echo "AGREGE EL TOKEN DEL BOT:"
 read token
 clear
 echo "ip=$ip
