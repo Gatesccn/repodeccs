@@ -33,7 +33,7 @@ apt-get install zip -y > /dev/null 2>&1
 
 wget hhttps://raw.githubusercontent.com/Gatesccn/repodeccs/main/gerarusuario-sshplus.sh -O gerarusuario.sh; chmod +x gerarusuario.sh > /dev/null
 
-wget https://github.com/Gatesccn/repodeccs/raw/main/%40admysshbot.zip -O bot.zip && unzip bot.zip > /dev/null
+wget https://github.com/Gatesccn/repodeccs/raw/main/admysshbot.zip -O bot.zip && unzip bot.zip > /dev/null
 
 rm dadosBot.ini > /dev/null
 
